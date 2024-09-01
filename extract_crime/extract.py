@@ -7,7 +7,7 @@ import time
 from tqdm import tqdm
 
 def get_result(content):
-    zhipuai.api_key = "25818ad549e6c7896829a09973122636.UAjQJFMngcXMIVhg"
+    zhipuai.api_key = "*"
     response = zhipuai.model_api.invoke(
         model="chatglm_pro",
         prompt=[
