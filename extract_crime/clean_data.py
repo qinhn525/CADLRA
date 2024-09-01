@@ -8,7 +8,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = '2'
 
 
 def get_result(content):
-    zhipuai.api_key = "25818ad549e6c7896829a09973122636.UAjQJFMngcXMIVhg"
+    zhipuai.api_key = "*"
     response = zhipuai.model_api.invoke(
         model="chatglm_pro",
         prompt=[
